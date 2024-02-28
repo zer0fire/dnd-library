@@ -1,0 +1,62 @@
+{
+    "compileOnSave": true,
+
+    "compilerOptions": {
+        "ignoreDeprecations": "5.0",
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "baseUrl": ".",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "rootDir": "src",
+        "typeRoots": [
+            "./typings"
+        ],
+        "declaration": true,
+        "declarationDir": "dist",
+        "declarationMap": true,
+        "importsNotUsedAsValues": "error",
+        "newLine": "lf",
+        "noEmitHelpers": true,
+        "noEmitOnError": true,
+        "outDir": "dist",
+        "preserveConstEnums": true,
+        "preserveValueImports": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": false,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "ESNext"
+        ],
+        "target": "ES6",
+        "composite": true,
+        "noErrorTruncation": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "watchOptions": {
+        "synchronousWatchDirectory": true,
+        "excludeDirectories": [
+            "**/node_modules"
+        ]
+    }
+}

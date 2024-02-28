@@ -1,0 +1,9 @@
+library/
+temp/
+local/
+build/
+.vscode/
+node_modules/
+dist/
+tsconfig.tsbuildinfo
+.rollup.cache
